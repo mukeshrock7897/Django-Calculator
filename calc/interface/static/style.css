@@ -1,0 +1,102 @@
+body {
+  background-image: url("https://preview.redd.it/nwr6dp2scskz.jpg?width=960&crop=smart&auto=webp&s=5b5000ba12af9cedc26529d02206805d0a062536");
+}
+
+input {
+  line-height: 46px;
+  font-family: 'Times New Roman', Times, serif;
+  -moz-transition: padding .25s;
+  -webkit-transition: padding .25s;
+  -o-transition: padding .25s;
+  transition: padding .25s;
+  height: 35px;
+  background: transparent;
+  font-size: 230%;
+  border: double;
+  text-align: right;
+}
+
+input:focus {
+  outline: none;
+}
+
+.container {
+  text-align: center;
+}
+
+.btn {
+  width: 100px;
+  height: 60px;
+  margin-left: 5px;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  user-select: none;
+  padding: .3em .1em;
+  outline: none;
+  border: 5px solid rgba(0, 0, 0, 0);
+  border-radius: 1px;
+  transition: all .218s ease 0s;
+}
+
+.btn:hover {
+  border: 1px solid rgb(198, 198, 198);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+.btn:active {
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(238, 238, 238) linear-gradient(rgb(238, 238, 238), rgb(224, 224, 224));
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .1) inset;
+}
+
+.btn-digits {
+  color: rgb(68, 68, 68);
+  background: #C0C0C0;
+}
+
+.btn-digits:hover {
+  color: #A0A0A0;
+  background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+}
+
+.btn-digits:active {
+  color: #A0A0A0;
+}
+
+.btn-equal {
+  color: #fff;
+  background: #3399FF;
+}
+
+.btn-equal:hover {
+  color: #fff;
+  background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+  background: #3399FF;
+}
+
+.btn-equal:active {
+  color: #fff;
+}
+
+.btn-symbols {
+  color: rgb(68, 68, 68);
+  background: #9A9A9A;
+}
+
+.btn-symbols:hover {
+  color: black;
+  background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+  background: #9A9A9A;
+}
+
+.btn-symbols:active {
+  color: rgb(51, 51, 51);
+}
+
+legend {
+  font-size: 250%;
+  text-align: center;
+}
